@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    div.card-container
+        a.card(href="/turn?choice=rock)
+            img(src="https://static.thenounproject.com/png/477922-200.png")
+img {
+    width: 200px;
+}
+.random {
+    font-size: 30px;
+}
